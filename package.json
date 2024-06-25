@@ -2,9 +2,14 @@
   "name": "goit-node-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "list": "node src/index.js -a list",
+    "get": "node src/index.js -a get -i 05olLMgyVQdWRwgKfg5J6",
+    "add": "node src/index.js -a add -n Mango -e mango@gmail.com -p 322-22-22",
+    "remove": "node src/index.js -a remove -i qdggE76Jtbfd9eWJHrssH"
   },
   "author": "Yana Samoilova <yanassam81@gmail.com>",
   "license": "ISC",
